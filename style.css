@@ -1,0 +1,249 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5a869c;
+    font-size: clamp(14px, 2vw, 18px);
+}
+
+li {
+    flex-direction: column;
+  }
+  
+  a {
+    display: block;
+    padding: 10px;
+    background-color: #5a869c;
+  
+    /* backgroud color for links  */
+}
+
+nav ul.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 50px;
+  margin-top: 10px;
+  margin-bottom: 7.5%;
+  background-color: #5a869c;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    
+    /* navigation bar */
+  }
+
+  
+  li {
+    float: right;
+    /* navigation bar position */
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* navigation bar text */
+  }
+
+  
+  li a:hover {
+    background-color: #111;
+    /* Change the link color to #111 (black) on hover */
+
+  }
+
+  .hero-section h1 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 30px;
+    font-size: 250%;
+    align-items: center;
+    font-style: normal;
+    font-family: "Rubik Scribble", system-ui;
+
+  }
+
+  .hero-section .intro {
+    flex: 5;
+    font-size: 20px;
+    justify-content: center;
+
+  }
+
+  .hero-section .headshot {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+  .hero-section .para{
+    text-align: center;
+    font-style: normal;
+    font-family: "Alkatra", system-ui;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 175px;
+  }
+
+  .hero-section .headshot img {
+    border-radius: 50%;
+    size: 500px;
+
+  }
+
+  @media ( max-width: 850px;){ 
+    /* section 1: hero */
+    .hero-section .intro
+    font-size: 30px;
+  
+
+  }
+
+
+  @media   (min-width: 845px; ){
+    /* section 1: hero */
+    .hero-section 
+      flex-direction: column-reverse;
+    
+  
+  }
+
+  .About-me {
+  
+    margin-bottom: 100px;
+      
+  }
+
+  h2{
+    font-size: 40px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(238, 17, 91) ;
+    padding: 0px 10px;
+    /* about me */
+  }
+
+  h2:hover {
+    background-color: #fcf4f4;
+    /* about background */
+  }
+
+  #About-me p {
+    font-size: 20px;
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 400px;
+    /* about me paragraph */
+
+  }
+
+  h3{
+    font-size: 40px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(238, 17, 91) ;
+    padding: 0px 10px;
+    /* Skills heading */
+  }
+
+  h3:hover{
+    background-color: #fcf4f4;
+  }
+
+  h4{
+    font-size: 20px;
+    font-style: normal;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+  }
+  
+  .skill-grid{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit);
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .skill-card{
+    background-color:  #5a869 (250, 246, 246);
+    padding: 1rem;
+    border-radius: 0.75;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 40%;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+    
+  }
+    
+
+  
+
+  h5{
+    font-size: 40px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(238, 17, 91) ;
+    padding: 0px 10px;
+    /* Skills heading */
+
+  }
+
+  h5:hover{
+    background-color: #fcfbfb;
+    /* heading */
+  }
+
+  h6{
+    font-size: 15px;
+    color: aliceblue;
+    padding: 14px 16px;
+    padding-left: 11px;
+  }
+
+  h6:hover{
+    background-color: #070707;
+  }
+
+  
+
+  a {
+    color: aliceblue;
+    text-decoration-line: none;
+    /* contact link */
+  }
+
+  a:hover {
+    background-color: #111;
+    /* contac link */
+  }
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  /* for mobile friendly */
+
+  
+
+
